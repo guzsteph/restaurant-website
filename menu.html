@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sol Azteca Menu</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<!-- Header / Navigation -->
+<header class="navbar">
+  <div class="header-content">
+    <!-- Logo -->
+    <a href="index.html#home">
+      <img src="images/logo1.png" alt="Sol Azteca Logo" class="logo" />
+    </a>
+
+    <!-- Hamburger Icon (for mobile) -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation Links (visible on desktop) -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="index.html#aboutUs">About Us</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#contact-us">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile Slide-In Menu -->
+<div class="backdrop" id="backdrop"></div>
+<div class="side-menu" id="sideMenu">
+  <span class="close-btn" id="closeBtn">&times;</span>
+  <ul>
+    <li><a href="index.html#home">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="index.html#aboutUs">About Us</a></li>
+    <li><a href="index.html#gallery">Gallery</a></li>
+    <li><a href="index.html#contact-us">Contact</a></li>
+  </ul>
+</div>
+  
+<main>
+    <div class="menu-hero">
+      <img src="images/browser.png" alt="Menu Dish" class="menu-image" />
+      <h1 class="menu-title">Menu</h1>
+    </div>
+
+    <nav class="menu-nav full-width">
+      <div class="tab-nav active-tab" data-target="food">FOOD</div>
+      <div class="tab-nav" data-target="drinks">DRINKS</div>
+      <div class="tab-nav" data-target="desserts">DESSERTS</div>
+    </nav>
+
+  <div id="food">
+  <!-- Appetizers -->
+  <section class="menu-category">
+    <h2 class="section-title">ANTOJITOS MEXICANOS – APPETIZERS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Guacamole</h3>
+        <p class="description">Classic Mexican avocado dip</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Nachos</h3>
+        <p class="description">Deep fried Mexican chips with melted cheese, beans, jalapeños & sour cream</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$12</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$14</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Flautas</h3>
+        <p class="description">4 Fried tortillas filled w/ CHEESE or CHICKEN and w/ sour cream, avocado, cheese, lettuce & tomato</p>
+        <p class="price">$13</p>
+      </div>
+      <div class="menu-item">
+        <h3>Huaraches</h3>
+        <p class="description">2 Handmade tortillas topped w/salsa, lettuce, sour cream, cheese, avocado & beans</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$15</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$15</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Chalupas</h3>
+        <p class="description">3 Light fried tortillas topped w/salsa, cheese, sour cream & avocado</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$11</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$13</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Tamales</h3>
+        <p class="description">Classic Mexican corn meal w/pork meat, RED or GREEN sauce</p>
+        <p class="price">$3.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Tostadas</h3>
+        <p class="description">3 Fried corn tortillas topped w/lettuce, beans, sour cream & cheese</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$12</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$13</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Sopes</h3>
+        <p class="description">3 Handmade tortillas topped w/sour cream, cheese, avocado, beans & salsa</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$14</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$15</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$15</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Quesadillas c/Quesillo</h3>
+        <p class="description">3 grilled corn tortillas stuffed w/quesillo served w/ guacamole & sour cream</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$14</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$14</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Quesadillas c/Tortilla de Harina</h3>
+        <p class="description">3 grilled flour tortillas, served w/ guacamole & sour cream</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$14</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$14</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Quesillo Fundido c/Chorizo</h3>
+        <p class="description">Melted cheese w/Spanish chorizo</p>
+        <p class="price">$13</p>
+      </div>
+      <div class="menu-item">
+        <h3>Nachos Sol Azteca</h3>
+        <p class="description">2 Fried corn tortillas w/ melted cheese, beans, & served w/ guacamole, pico de gallo & sour cream</p>
+        <div class="price-options">
+          <div class="price-row"><span>Plain</span><span>$12</span></div>
+          <div class="price-row"><span>w/ Chicken</span><span>$13</span></div>
+          <div class="price-row"><span>w/ Beef</span><span>$14</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Salads -->
+  <section class="menu-category">
+    <h2 class="section-title">ENSALADAS – SALADS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Ensalada de Aguacate</h3>
+        <p class="description">Avocado salad served w/lettuce, onions, tomatoes & avocado</p>
+        <p class="price">$13</p>
+      </div>
+      <div class="menu-item">
+        <h3>Ensalada de Aguacate con Pollo</h3>
+        <p class="description">Chicken salad served w/avocado, lettuce tomatoes & onions</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Ensalada de la Casa</h3>
+        <p class="description">House salad served w/lettuce, tomatoes & onions</p>
+        <p class="price">$8</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Soups -->
+  <section class="menu-category">
+    <h2 class="section-title">SOPAS – SOUPS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken soup</p>
+        <div class="price-options">
+          <div class="price-row"><span>Small</span><span>$4</span></div>
+          <div class="price-row"><span>Large</span><span>$7</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Pozole</h3>
+        <p class="description">White corn soup w/ pork meat</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pancita</h3>
+        <p class="description">Tripe soup</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Caldo de Res</h3>
+        <p class="description">Beef soup w/ guajillo pepper, zucchini, string beans & corn on the cob</p>
+        <p class="price">$16</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tortas -->
+  <section class="menu-category">
+    <h2 class="section-title">TORTAS – MEXICAN SANDWICHES</h2>
+    <p class="section-note">• All tortas have oaxaca cheese, beans, mayonnaise, avocado, jalapeños, tomatoes & onions •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Grilled Chicken</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Milanesa de Pollo</h3>
+        <p class="description">Chicken Cutlet</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Milanesa de Res</h3>
+        <p class="description">Beef Cutlet</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Jamón c/Queso Oaxaca</h3>
+        <p class="description">Ham & Oaxaca style cheese</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cecina</h3>
+        <p class="description">Salted Beef</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Huevo & Chorizo</h3>
+        <p class="description">Egg & Mexican style sausage</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Carne Enchilada</h3>
+        <p class="description">Spicy Pork</p>
+        <p class="price">$10</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cemitas -->
+  <section class="menu-category">
+    <h2 class="section-title">CEMITAS – PUEBLA STYLE SANDWICHES</h2>
+    <p class="section-note">• All cemitas have oaxaca cheese, beans, mayonnaise, avocado, chipotle, tomatoes & onions •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Grilled Chicken</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Milanesa de Pollo</h3>
+        <p class="description">Chicken Cutlet</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Milanesa de Res</h3>
+        <p class="description">Beef Cutlet</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Jamón c/Queso Oaxaca</h3>
+        <p class="description">Ham & Oaxaca style cheese</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cecina</h3>
+        <p class="description">Salted Beef</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Huevo & Chorizo</h3>
+        <p class="description">Egg & Mexican style sausage</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Carne Enchilada</h3>
+        <p class="description">Spicy Pork</p>
+        <p class="price">$11</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Tacos Order -->
+  <section class="menu-category">
+    <h2 class="section-title">3 TACOS ORDER</h2>
+    <p class="section-note">• Soft corn tortillas w/ cilantro & onions •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Carnitas</h3>
+        <p class="description">Fried Pork</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Res</h3>
+        <p class="description">Beef</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cecina</h3>
+        <p class="description">Salted Beef</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Lengua</h3>
+        <p class="description">Beef Tongue</p>
+        <p class="price">$13</p>
+      </div>
+      <div class="menu-item">
+        <h3>Carne Enchilada</h3>
+        <p class="description">Spicy Pork</p>
+        <p class="price">$11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chorizo</h3>
+        <p class="description">Mexican Sausage</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Carne Molida</h3>
+        <p class="description">Ground Beef</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Camarón</h3>
+        <p class="description">Shrimp</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Al Pastor</h3>
+        <p class="description">Roasted Pork</p>
+        <p class="price">$10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mixtos</h3>
+        <p class="description">Taco Combination</p>
+        <p class="price">$12</p>
+      </div>
+      <div class="menu-item">
+        <h3>Azteca</h3>
+        <p class="description">Beef & Chorizo</p>
+        <p class="price">$13</p>
+      </div>
+      <div class="menu-item">
+        <h3>Birria</h3>
+        <p class="description">Beef Brisket w/ melted cheese, served with broth for dipping</p>
+        <p class="price">$16</p>
+      </div>
+      <div class="menu-item">
+        <h3>Campechano</h3>
+        <p class="description">Beef and Roasted pork w/ melted mozzarella cheese</p>
+        <p class="price">$14</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Side Dishes -->
+  <section class="menu-category">
+    <h2 class="section-title">ORDENES EXTRAS – SIDE DISHES</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Papas Fritas</h3>
+        <p class="description">French Fries</p>
+        <p class="price">$5</p>
+      </div>
+      <div class="menu-item">
+        <h3>Arroz y Frijoles</h3>
+        <p class="description">Rice & Beans</p>
+        <p class="price">$5</p>
+      </div>
+      <div class="menu-item">
+        <h3>Medio Aguacate</h3>
+        <p class="description">Half Avocado</p>
+        <p class="price">$2.75</p>
+      </div>
+      <div class="menu-item">
+        <h3>Arroz o Frijoles</h3>
+        <p class="description">Rice or Beans</p>
+        <p class="price">$5</p>
+      </div>
+      <div class="menu-item">
+        <h3>Crema</h3>
+        <p class="description">Sour Cream</p>
+        <p class="price">$6</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pico de Gallo</h3>
+        <p class="price">$4</p>
+      </div>
+      <div class="menu-item">
+        <h3>Salsa y Chips</h3>
+        <p class="price">$16</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seafood -->
+  <section class="menu-category">
+    <h2 class="section-title">MARISCOS – SEAFOOD</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Mojarra al Mojo de Ajo</h3>
+        <p class="description">Fried Porgy served w/ rice, potatoes, salad & tortillas</p>
+        <p class="price">$19</p>
+      </div>
+      <div class="menu-item">
+        <h3>Camarones al Mojo de Ajo</h3>
+        <p class="description">Shrimp sauteed in garlic sauce, served w/ rice, beans, salad & tortillas</p>
+        <p class="price">$18</p>
+      </div>
+      <div class="menu-item">
+        <h3>Coctel de Camarones Pequeño</h3>
+        <p class="description">Small Shrimp Cocktail</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Coctel de Camarones Grande</h3>
+        <p class="description">Large Shrimp Cocktail</p>
+        <p class="price">$16</p>
+      </div>
+      <div class="menu-item">
+        <h3>Huachinango Frito al Mojo de Ajo</h3>
+        <p class="description">Fried red snapper served w/ rice, beans, potatoes, salad & tortillas</p>
+        <p class="price">$20</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mexican Specialties -->
+  <section class="menu-category">
+    <h2 class="section-title">PLATOS TÍPICOS MEXICANOS – MEXICAN SPECIALTIES</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Mole Poblano</h3>
+        <p class="description">Deep brown sauce made w/ a variety of hot peppers & other ingredients. Chicken is topped w/ sauce, served w/ rice, beans & tortillas</p>
+        <p class="price">$17</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chile Relleno</h3>
+        <p class="description">Poblano pepper filled w/ cheese, dipped in egg batter, topped w/ mild sauce & served with rice, beans & tortillas</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cecina</h3>
+        <p class="description">Salted beef served w/ rice, beans & tortillas</p>
+        <p class="price">$16</p>
+      </div>
+      <div class="menu-item">
+        <h3>Bistec a la Mexicana</h3>
+        <p class="description">Steak sauteed w/ onions, tomatoes, jalapeños, served w/ rice, beans & tortillas</p>
+        <p class="price">$19</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pollo a la Mexicana</h3>
+        <p class="description">Chicken sauteed w/ onions, tomatoes, jalapeños, served w/ rice, beans & tortillas</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Bistec Encebollado</h3>
+        <p class="description">Grilled Steak w/ onions & peppers, served w/ rice, beans & tortillas</p>
+        <p class="price">$19</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chuletas de Puerco</h3>
+        <p class="description">Pork chops served w/ rice, beans & tortillas</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pollo a la Plancha</h3>
+        <p class="description">Grilled chicken served w/ rice, beans, salad & tortillas</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Milanesa de Pollo</h3>
+        <p class="description">Breaded chicken served w/ rice, beans, salad & tortillas</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Milanesa de Res</h3>
+        <p class="description">Breaded beef served w/ rice, beans, salad & tortillas</p>
+        <p class="price">$16</p>
+      </div>
+      <div class="menu-item">
+        <h3>Adobo de Puerco</h3>
+        <p class="description">Pork in green tomatillo sauce served w/ rice, beans & tortillas</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cecina Especial</h3>
+        <p class="description">Salted beef & served w/ rice, beans, cheese, cactus, cambray onions & tortillas</p>
+        <p class="price">$17</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mixto de Molcajete</h3>
+        <p class="description">Spicy pork, salted beef, chicken, served w/ rice, beans, cactus, cambray onions, guacamole & tortillas</p>
+        <p class="price">$20</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chuletas en Salsa Verde</h3>
+        <p class="description">Pork chops in green tomatillo sauce served w/ rice, beans & tortillas</p>
+        <p class="price">$16</p>
+      </div>
+      <div class="menu-item">
+        <h3>Huevos Ranchero</h3>
+        <p class="description">Fried eggs with green or red sauce served with rice, beans & tortillas</p>
+        <p class="price">$12</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chilaquiles -->
+  <section class="menu-category">
+    <h2 class="section-title">CHILAQUILES</h2>
+    <p class="section-note">• Fried tortillas sautéed in mild pepper sauce (ROJA or VERDE) •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Simple</h3>
+        <p class="description">Plain CHILAQUILES</p>
+        <p class="price">$12</p>
+      </div>
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Res</h3>
+        <p class="description">Beef</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cecina</h3>
+        <p class="description">Salted Beef</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Huevo</h3>
+        <p class="description">Egg</p>
+        <p class="price">$13</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enchiladas -->
+  <section class="menu-category">
+    <h2 class="section-title">ENCHILADAS</h2>
+    <p class="section-note">• 4 Corn tortillas topped w/ sauce (GREEN, RED GUAJILLO, or MOLE), served w/ rice, beans & sour cream •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Queso</h3>
+        <p class="description">Cheese</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Sol Azteca</h3>
+        <p class="description">Chicken or cheese covered w/ avocados, lettuce & red guajillo sauce</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mole</h3>
+        <p class="description">Chicken or cheese covered deep brown sauce made w/ a variety of hot peppers and other Mexican ingredients</p>
+        <p class="price">$14</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fajitas -->
+  <section class="menu-category">
+    <h2 class="section-title">FAJITAS – SIZZLING FAJITAS</h2>
+    <p class="section-note">• All served w/ rice, beans & tortillas (topped with cooked onions & peppers) •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken</p>
+        <p class="price">$16</p>
+      </div>
+      <div class="menu-item">
+        <h3>Res</h3>
+        <p class="description">Beef</p>
+        <p class="price">$17</p>
+      </div>
+      <div class="menu-item">
+        <h3>Camarones</h3>
+        <p class="description">Shrimp</p>
+        <p class="price">$18</p>
+      </div>
+      <div class="menu-item">
+        <h3>Mixta</h3>
+        <p class="description">Mixed – Chicken, beef & shrimp</p>
+        <p class="price">$19</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Burritos -->
+  <section class="menu-category">
+    <h2 class="section-title">BURRITOS</h2>
+    <p class="section-note">• Flour tortilla stuffed w/ beans, mozzarella cheese & served w/ rice, beans, guacamole, sour cream, & salad •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken</p>
+        <p class="price">$14</p>
+      </div>
+      <div class="menu-item">
+        <h3>Res</h3>
+        <p class="description">Beef</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Carne Molida</h3>
+        <p class="description">Ground Beef</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Al Pastor</h3>
+        <p class="description">Roasted pork</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Azteca</h3>
+        <p class="description">Beef & chorizo</p>
+        <p class="price">$18</p>
+      </div>
+      <div class="menu-item">
+        <h3>Camaron</h3>
+        <p class="description">Shrimp</p>
+        <p class="price">$18</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chimichanga -->
+  <section class="menu-category">
+    <h2 class="section-title">CHIMICHANGA</h2>
+    <p class="section-note">• Deep fried flour tortilla stuffed w/ beans, mozzarella cheese & served w/ rice, beans, guacamole, sour cream, & salad •</p>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pollo</h3>
+        <p class="description">Chicken</p>
+        <p class="price">$15</p>
+      </div>
+      <div class="menu-item">
+        <h3>Res</h3>
+        <p class="description">Beef</p>
+        <p class="price">$16</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kids Menu -->
+  <section class="menu-category">
+    <h2 class="section-title">MENU DE NIÑOS – KIDS MENU</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Chicken Nuggets</h3>
+        <p class="price">$8</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chicken Tenders</h3>
+        <p class="price">$8</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <div id="drinks" style="display: none;">
+  <!-- Natural Waters -->
+  <section class="menu-category">
+    <h2 class="section-title">AGUAS NATURALES – NATURAL WATERS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Agua de Jamaica</h3>
+        <p class="description">Hibiscus</p>
+        <div class="price-options">
+          <div class="price-row"><span>Small</span><span>$3</span></div>
+          <div class="price-row"><span>Large</span><span>$6</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Agua de Horchata</h3>
+        <p class="description">A cold rice drink</p>
+        <div class="price-options">
+          <div class="price-row"><span>Small</span><span>$3</span></div>
+          <div class="price-row"><span>Large</span><span>$6</span></div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Agua de Tamarindo</h3>
+        <p class="description">Tamarind</p>
+        <div class="price-options">
+          <div class="price-row"><span>Small</span><span>$3</span></div>
+          <div class="price-row"><span>Large</span><span>$6</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cold Drinks -->
+  <section class="menu-category">
+    <h2 class="section-title">BEBIDAS – COLD DRINKS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Jarritos</h3>
+        <p class="description">Mexican Sodas</p>
+        <p class="price">$3</p>
+      </div>
+      <div class="menu-item">
+        <h3>Boing</h3>
+        <p class="description">Light Juice</p>
+        <p class="price">$3</p>
+      </div>
+      <div class="menu-item">
+        <h3>Sodas de lata</h3>
+        <p class="description">Soft Drinks</p>
+        <p class="price">$2</p>
+      </div>
+      <div class="menu-item">
+        <h3>Agua de botella</h3>
+        <p class="description">Bottle Water</p>
+        <p class="price">$1.75</p>
+      </div>
+      <div class="menu-item">
+        <h3>Agua mineral</h3>
+        <p class="description">Seltzer Water</p>
+        <p class="price">$2</p>
+      </div>
+      <div class="menu-item">
+        <h3>Snapple</h3>
+        <p class="price">$2.75</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hot Drinks -->
+  <section class="menu-category">
+    <h2 class="section-title">BEBIDAS CALIENTES – HOT DRINKS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Coffee</h3>
+        <p class="price">$3</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <p class="price">$4</p>
+      </div>
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <p class="price">$2.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Tea</h3>
+        <p class="price">$2</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <div id="desserts" style="display: none;">
+  <section class="menu-category">
+    <h2 class="section-title">POSTRES – DESSERTS</h2>
+    <div class="section-lines">
+      <div class="green-line"></div>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Pastel de Tres Leches</h3>
+        <p class="description">Three Milk Cake</p>
+        <p class="price">$7</p>
+      </div>
+      <div class="menu-item">
+        <h3>Flan</h3>
+        <p class="price">$6</p>
+      </div>
+      <div class="menu-item">
+        <h3>Churros</h3>
+        <p class="price">$6</p>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<!-- Contact Footer Section -->
+<footer class="contact-footer">
+  <div class="contact-content left">
+    <!-- Left: Logo and Tagline -->
+    <div class="footer-column">
+      <img src="images/logo1.png" alt="Sol Azteca Logo" class="footer-logo">
+      <p class="footer-tagline">
+        Located on Kearny Ave, Sol Azteca Mexican Restaurant is where great food and warm hospitality come together. We can’t wait to welcome you.
+      </p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/solaztecarestaurant/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/SolAztecaNewJersey" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Opening Hours -->
+    <div class="footer-column right">
+      <h4>OPENING HOURS</h4>
+      <ul class="hours-list">
+        <li><span class="day-label">Sun, Mon, Wed, Thurs:</span><span class="hour-time"> 10:00 AM – 10:00 PM</span></li>
+        <li><span class="day-label">Fri & Sat:</span><span class="hour-time"> 10:00 AM – 10:30 PM</span></li>
+        <li><span class="closed-day">Tuesday: Closed</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Row -->
+  <div class="footer-bottom">
+    <p>© 2025 Sol Azteca Mexican Restaurant. All rights reserved. Developed by Stephany Guzman</p>
+
+    <div class="footer-links">
+      <a href="index.html#home">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="index.html#aboutUs">About Us</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" title="Back to top">
+  <span class="arrow-up">↑</span>
+</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sol Azteca Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+<header id="home" class="navbar">
+  <div class="header-content">
+    <!-- Logo -->
+    <a href="#home">
+      <img src="images/logo1.png" alt="Sol Azteca Logo" class="logo" />
+    </a>
+
+    <!-- Hamburger Icon (for mobile) -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation Links (visible on desktop) -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>        
+        <li><a href="#contact-us">Contact</a></li>    
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile Slide-In Menu -->
+<div class="backdrop" id="backdrop"></div>
+<div class="side-menu" id="sideMenu">
+  <span class="close-btn" id="closeBtn">&times;</span>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="#aboutUs">About Us</a></li>
+    <li><a href="#gallery">Gallery</a></li>       
+    <li><a href="#contact-us">Contact Us</a></li>    
+  </ul>
+</div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <img src="images/foto.png" alt="Torta Dish" class="hero-image">
+    <img src="images/mobileversion1.png" alt="Torta Dish" class="hero-image mobile-hero">
+    <!--<img src="image3.png" alt="Torta Dish" class="hero-image">-->
+    <div class="hero-text-container">
+      <h1 class="hero-text">Sol Azteca Mexican Restaurant</h1>
+      <a href="menu.html" class="view-menu-btn">View Menu</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="aboutUs" class="welcome-section">
+    <h1 class="welcome-heading">Welcome to Sol Azteca Mexican Restaurant</h1>
+    <div class="icon-divider">
+      <i class="fas fa-pepper-hot"></i>
+    </div>
+  </section>
+
+  <section class="about-us-section">
+    <div class="column left">
+      <h2 class="section-heading">About Us</h2>
+      <p>
+        Sol Azteca offers authentic Mexican cuisine made with fresh ingredients and traditional flavors.
+        Whether you're stopping by for lunch or dinner, our warm atmosphere, excellent customer service,
+        and delicious dishes bring a taste of Mexico to every plate.
+      </p>
+      <div class="about-extra-pill-container">
+        <span class="about-pill">
+          <i class="fas fa-wine-bottle"></i> BYOB-Friendly</span>
+        <span class="about-pill">
+          <i class="fas fa-credit-card"></i> We accept all major cards</span>
+      </div>
+
+    </div>
+    <div class="column right">
+      <img src="images/image2.png" alt="Our Restaurant">
+    </div>
+  </section>
+
+  <section class="gallery-section" id="gallery">
+    <h2 class="section-heading">Gallery</h2>
+    <div class="gallery-container">
+      <img src="images/picture0.png" alt="Restaurant exterior">
+      <img src="images/pic4.png" alt="Restaurant exterior">
+      <img src="images/picture3.png" alt="Restaurant exterior">
+      <img src="images/pic1.png" alt="Tacos al pastor">
+      <img src="images/pic2.png" alt="Restaurant interior">
+      <img src="images/pic3.png" alt="Restaurant exterior">
+      <img src="images/pic5.png" alt="Restaurant exterior">
+      <img src="images/pic6.png" alt="Restaurant exterior">
+      <img src="images/pic7.png" alt="Restaurant exterior">
+      <img src="images/pic8.png" alt="Restaurant exterior">
+      <img src="images/pic9.png" alt="Restaurant exterior">
+      <img src="images/picture9.png" alt="Restaurant exterior">
+      <img src="images/pic11.png" alt="Restaurant exterior">
+      <img src="images/pic12.png" alt="Restaurant exterior">
+      <img src="images/pic10.png" alt="Restaurant exterior">
+      <img src="images/picture10.png" alt="Restaurant exterior">
+    </div>
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <img class="lightbox-img" src="" alt="Enlarged image">
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+  </section>
+
+  <section id="contact-us">
+  <h2 class="section-heading">Contact</h2>
+  <p class="contact-address">2 Kearny Ave. Kearny, NJ 07032</p>
+  <p class="contact-phone">
+    <a href="tel:2014289331">(201) 428-9331</a>
+    <span class="dot">•</span>
+    <a href="tel:2014289322">(201) 428-9322</a>
+  </p>
+</section>
+
+  <div class="map-container">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4393961234505!2d-74.1598966239723!3d40.75235957138764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2558ed1b25737%3A0x74ed5028682b378c!2sSol%20Azteca%20Mexican%20Restaurant!5e0!3m2!1sen!2sus!4v1751245644269!5m2!1sen!2sus" width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+  </iframe>
+</div>
+
+  <!-- Contact Footer Section -->
+<footer class="contact-footer">
+  <div class="contact-content left">
+    <!-- Left: Logo and Tagline -->
+    <div class="footer-column">
+      <img src="images/logo1.png" alt="Sol Azteca Logo" class="footer-logo">
+      <p class="footer-tagline">
+        Located on Kearny Ave, Sol Azteca Mexican Restaurant is where great food and warm hospitality come together. We can’t wait to welcome you.
+      </p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/solaztecarestaurant/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/SolAztecaNewJersey" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Opening Hours -->
+    <div class="footer-column right">
+      <h4>OPENING HOURS</h4>
+      <ul class="hours-list">
+        <li><span class="day-label">Sun, Mon, Wed, Thurs:</span><span class="hour-time"> 10:00 AM – 10:00 PM</span></li>
+        <li><span class="day-label">Fri & Sat:</span><span class="hour-time"> 10:00 AM – 10:30 PM</span></li>
+        <li><span class="closed-day">Tuesday: Closed</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Row -->
+  <div class="footer-bottom">
+    <p>© 2025 Sol Azteca Mexican Restaurant. All rights reserved. Developed by Stephany Guzman</p>
+
+    <div class="footer-links">
+      <a href="index.html#home">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="index.html#aboutUs">About Us</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" title="Back to top">
+  <span class="arrow-up">↑</span>
+</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
