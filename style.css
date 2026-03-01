@@ -1192,9 +1192,9 @@ hr {
   .hero-text {
     font-size: 3.5rem;
     font-weight: 900;
-    text-shadow: 2px 1px 2px #000;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     padding: 8px 12px;
-    border-radius: 3px;
+    border-radius: 5px;
     display: inline-block;
   }
 }
