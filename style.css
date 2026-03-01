@@ -196,8 +196,8 @@ body {
 .view-menu-btn {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #c8102e; 
+  padding: 12px 28px;
+  background-color: #8B1E1E; 
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -1184,5 +1184,16 @@ hr {
     font-size: 18px;
     bottom: 15px;
     right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
   }
 }
